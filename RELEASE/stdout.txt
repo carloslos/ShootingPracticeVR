@@ -1,0 +1,50 @@
+##########################################################
+           Sistema ADN-X (v. 14.11 estable)
+**********************************************************
+
+Modo grafico iniciado correctamente.
+Monitor de video iniciado correctamente.
+Generador de numeros aleatorios iniciado correctamente.
+Sistema de audio iniciado correctamente.
+Sistema de audio iniciado correctamente.
+Sistema de audio finalizado correctamente.
+Sistema de audio finalizado correctamente.
+
+**********************************************************
+       El proyecto ADN-X ha finalizado correctamente      
+##########################################################
+Se destruyo la imagen0 del sprite sin Nombre
+Se destruyo la imagen1 del sprite sin Nombre
+Se destruyo la imagen2 del sprite sin Nombre
+Se destruyo la imagen3 del sprite sin Nombre
+Se destruyo la imagen4 del sprite sin Nombre
+Se destruyo la imagen5 del sprite sin Nombre
+Se destruyo la imagen6 del sprite sin Nombre
+Se destruyeron la imagenes del sprite sin Nombre
+El texto FONTS/VT323.ttf se cerro correctamente.
+El texto FONTS/VT323.ttf se cerro correctamente.
+Se destruyo la imagen0 del sprite sin Nombre
+Se destruyeron la imagenes del sprite sin Nombre
+El texto FONTS/VT323.ttf se cerro correctamente.
+El texto FONTS/VT323.ttf se cerro correctamente.
+Se destruyo la imagen0 del sprite sin Nombre
+Se destruyo la imagen1 del sprite sin Nombre
+Se destruyo la imagen2 del sprite sin Nombre
+Se destruyo la imagen3 del sprite sin Nombre
+Se destruyo la imagen4 del sprite sin Nombre
+Se destruyo la imagen5 del sprite sin Nombre
+Se destruyo la imagen6 del sprite sin Nombre
+Se destruyo la imagen7 del sprite sin Nombre
+Se destruyo la imagen8 del sprite sin Nombre
+Se destruyo la imagen9 del sprite sin Nombre
+Se destruyo la imagen10 del sprite sin Nombre
+Se destruyo la imagen11 del sprite sin Nombre
+Se destruyo la imagen12 del sprite sin Nombre
+Se destruyo la imagen13 del sprite sin Nombre
+Se destruyo la imagen14 del sprite sin Nombre
+Se destruyo la imagen15 del sprite sin Nombre
+Se destruyo la imagen16 del sprite sin Nombre
+Se destruyeron la imagenes del sprite sin Nombre
+El texto FONTS/VT323.ttf se cerro correctamente.
+Monitor de video cerrado correctamente.
+El modo grafico se cerro correctamente.

@@ -1,0 +1,119 @@
+
+*********************************************************************************
+*                                                                               *
+*                                     ADN-X                                     *
+*                            *************************                          *
+*                            *      LA MUTACION      *                          *
+*                            *************************                          *
+*                                                                               *
+*                              NOVEDADES DE VERSION                             *
+*                                                                               *
+*      Edición: Don Torcuato - Tigre - Buenos Aires - Argentina - 12/11/2014.   *
+*                                                                               *
+*********************************************************************************
+*                                                                               *
+* INTRODUCCION                                                                  *
+*              Esta nueva version de las ADN, presenta un cambio radical en lo  *
+*              conceptual, operativo y estructural.                             *
+*                                                                               *
+*              LO CONCEPTUAL: se eliminaron varias clases superfluas haciendo   *
+*                             al sistema mas basico, obligando a los alumnos    *
+*                             a pensar en las clase derivadas, volviendo de     *
+*                             esta forma al concepto inicial "UN GRUPO DE       *
+*                             CLASES PARA INICIAR A LOS ALUMNOS EN LA OOP".     *
+*                                                                               *
+*              LO OPERATIVO: la reduccion de la cantidad de clases que forman   *
+*                            el sistema, hacen que su uso sea mas sencillo.     *
+*                                                                               *
+*              LO ESTRUCTURAL: en este aspecto es donde se presentan los        *
+*                              cambios mas importantes, ya que se reemplaza el  *
+*                              sistema de archivo unico, donde aparecen las     *
+*                              declaraciones y definiciones juntas, por el      *
+*                              sistema de archivo doble (declaraciones por un   *
+*                              lado y definiciones por otro). Este tipo de      *
+*                              estructura es mucho mas ptofesional.             *
+*                                                                               *
+*...............................................................................*
+*                                                                               *
+* CAMBIOS DE VERSION                                                            *
+*                                                                               *
+* 01) Se ha cambiado la estructura del sistema, reemplazando al viejo conjunto  *
+*     de librerias en el que aparecia por cada clase un unico archivo de tipo   *
+*     ".h", con la declaracion y la implementacion.                             *
+*                                                                               *
+*     En el nuevo sistema, a cada clase le corresponden dos archivos, un de     *
+*     tipo ".h", con los encabezados, y otro de tipo ".cpp", con las            *
+*     definiciones de los metodos.                                              *
+*                                                                               *
+* 02) Se concentraron todas las declaraciones de tipos y constantes del sistema *
+*     en un unico archivo "adnConsts.h", desapareciendo los archivos "adn++.h", *
+*     "colorTypes.h", "keyboardTypes.h", "mouseTypes.h", "spriteTypes.h",       *
+*     "textTypes.h" y "videoTypes.h".                                           *
+*                                                                               *
+* 03) Se elimino la clase "clsEngine".                                          *
+*                                                                               *
+* 04) Se reescribio la clase "clsGraphicMode" y se le cambio el nombre por el   *
+*     de "clsMode.h".                                                           *
+*                                                                               *
+* 05) Se reemplazo el metodo "close" de la clase "clsMode" por un destructor.   *
+*                                                                               *
+* 06) Se elimino la clase abstracta "clsBasicScreen".                           *
+*                                                                               *
+* 07) Se elimino la clase "clsVirtualScreen".                                   *
+*                                                                               *
+* 08) Se reescribio la clase "clsScreen", agregandole los atributos y metodos   *
+*     de la clase abstracta "clsBasicScreen".                                   *
+*                                                                               *
+* 09) Se eliminaron los metodos "load" y "paste" de la clase "clsScreen".       *
+*                                                                               *
+* 10) Se eliminaron las clases "clsBasicSprite", "clsMovilSprite" y             *
+*     "clsContactSprite", dejando en su lugar una clase astracta y unica        *
+*     llamada "clsSprite", que incorpora la mayoria de los metodos de la clase  *
+*     "clsBasicSprite" y todos los metodos de la clase "clsContactSprite".      *
+*                                                                               *
+* 11) Se elimino el metodo "unload" de la clase "clsSprite".                    *
+*                                                                               *
+* 12) Se corrigio un bug en el destructor de la clase "clsSprite"               *
+*                                                                               *
+* 13) Se reescribio y sobrecargo el metodo "paste" de la clase "clsSprite",     *
+*     quedando asi, los metodos:                                                *
+*                                                                               *
+*              "paste(unsigned int X,unsigned int Y,SDL_Surface*)"              *
+*                                                                               *
+*                                   y                                           *
+*                                                                               *
+*              "paste(SDL_Surface*)".                                           *
+*                                                                               *
+* 14) Se eliminaron el atributo "transparent" y los metodos "setTransparent()"  *
+*     y "getTransparent".                                                       *
+*                                                                               *
+*     NOTA: a partir de esta version, el color transparente es unico para todos *
+*           los sprites (R=0, G=0, B=0, A=0 --> BLACK).                         *
+*                                                                               *
+* 15) Se corrigieron los bugs de la funcionalidad de contacto de "clsSprite".   *
+*                                                                               *
+* 16) Se reinscribio las clase "clsDot" para que trabaje directamente con el    *
+*     tipo de dato "rgbColor", evitando de esta manera la conversion de los     *
+*     datos de tipo "SDL_Color".                                                *
+*                                                                               *
+* 17) Se elimino la clase "clsRectangle", porque se puede reconstruir con la    *
+*     clase "clsDot".                                                           *
+*                                                                               *
+* 18) Se elimino la clase "clsTextBox".                                         *
+*                                                                               *
+* 19) Se elimino la clase "clsSystem"                                           *
+*                                                                               *
+* 20) En la plantilla del proyecto "adn-X_aa.mm", se ha incluido la carpeta     *
+*     "FONTS" que contiene un grupo de de fuentes ttf GNU.                      *
+*                                                                               *
+* 21) Se agregaron las clases "clsAudio", "clsSoundEffect" y "clsMusic" para    *
+*     administrar audio.                                                        *
+*                                                                               *
+* 21) Se cambiaron todos los rotulos de encabezado de archivos.                 *
+*                                                                               *
+* 22) Se cambio el metodo de versionar, por el metodo usado por Ubuntu (aa.mm)  *
+*                                                                               *
+*     Por ejemplo: version 14.11 (aa: 2014 - mm: 11 noviembre).                 *
+*                                                                               *
+*********************************************************************************
+

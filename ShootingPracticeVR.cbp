@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ShootingPracticeVR" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option show_notes="0">
+			<notes>
+				<![CDATA[#########################################
+
+ AVIS SOFTWARE   
+(Productos de Software Libre)           
+  
+adn-X (Sistma de clases para el modo gráfico en C++)
+              v. 14.11  - 12/11/2014.    
+
+AUTOR: Ruben Alberto Calabuig.
+
+#########################################
+      EL SOFTWARE LIBRE NO ES UNA CUESTIÓN ECONÓMICA 
+                                  SINO UNA CUESTIÓN ÉTICA
+****************************************************************
+
+Avis Software es marca registrada.
+
+Este programa es software libre; puede redistribuirlo o modificarlo bajo
+los términos de la Licencia Publica General de GNU tal como se pública 
+por la Free Software Foundation; ya sea la versión 3 de la Licencia, o (a 
+su elección) cualquier versión posterior.
+ 
+Este programa se distribuye con la esperanza de que le sea util, pero 
+SIN NINGUNA GARANTIA; sin incluso la garantía implícita de 
+MERCANTILIDAD o IDONEIDAD PARA UN PROPÓSITO PARTICULAR.
+
+Vea la Licencia Pública General GNU para más detalles.
+
+Debería haber recibido una copia de la Licencia Pública General de GNU 
+junto con este programa, si no es así, escriba a la Free Software 
+Foundation, Inc, 59 Temple Place - Suite 330, Boston, MA 02111-1307, 
+EE.UU.
+
+=========================================
+
+¿Qué es Avis adn++?
+
+Avis adn++ es un sistema de librerías de clases desarrolladas en C++, y
+basadas en las SDL de Sam Lantinga.
+
+El objetivo de adn++, es introducir a los alumnos en la OOP 
+(programación orientada a objeto).
+
+Avis adn++ es un producto registrado de Avis SOFTWARE.
+
+#########################################
+]]>
+			</notes>
+		</Option>
+		<Build>
+			<Target title="Debug">
+				<Option output="EXEC/SPVR" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="./LOG/" />
+				<Option object_output="./OBJECTS/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="ADN_5.0.0-15/ENCABEZADOS" />
+					<Add directory="CLASSES/ENCABEZADOS" />
+					<Add directory="ADN_5.0.0-15" />
+					<Add directory="USER" />
+					<Add directory="ADN-X" />
+					<Add directory="CLASSES" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="RELEASE/SPVR" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="./LOG/" />
+				<Option object_output="./OBJECTS/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="ADN_5.0.0-15/ENCABEZADOS" />
+					<Add directory="CLASSES/ENCABEZADOS" />
+					<Add directory="ADN_5.0.0-15" />
+					<Add directory="USER" />
+					<Add directory="ADN-X" />
+					<Add directory="CLASSES" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`sdl-config --cflags`" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="`sdl-config --libs`" />
+		</Linker>
+		<Unit filename="ADN-X NEWS/adn-X - News (castellano).txt" />
+		<Unit filename="ADN-X/adnConsts.h" />
+		<Unit filename="ADN-X/clsAudio.cpp" />
+		<Unit filename="ADN-X/clsAudio.h" />
+		<Unit filename="ADN-X/clsDot.cpp" />
+		<Unit filename="ADN-X/clsDot.h" />
+		<Unit filename="ADN-X/clsError.cpp" />
+		<Unit filename="ADN-X/clsError.h" />
+		<Unit filename="ADN-X/clsEvent.cpp" />
+		<Unit filename="ADN-X/clsEvent.h" />
+		<Unit filename="ADN-X/clsImage.cpp" />
+		<Unit filename="ADN-X/clsImage.h" />
+		<Unit filename="ADN-X/clsLog.cpp" />
+		<Unit filename="ADN-X/clsLog.h" />
+		<Unit filename="ADN-X/clsMode.cpp" />
+		<Unit filename="ADN-X/clsMode.h" />
+		<Unit filename="ADN-X/clsMusic.cpp" />
+		<Unit filename="ADN-X/clsMusic.h" />
+		<Unit filename="ADN-X/clsRandom.cpp" />
+		<Unit filename="ADN-X/clsRandom.h" />
+		<Unit filename="ADN-X/clsScreen.cpp" />
+		<Unit filename="ADN-X/clsScreen.h" />
+		<Unit filename="ADN-X/clsSoundEffect.cpp" />
+		<Unit filename="ADN-X/clsSoundEffect.h" />
+		<Unit filename="ADN-X/clsSprite.cpp" />
+		<Unit filename="ADN-X/clsSprite.h" />
+		<Unit filename="ADN-X/clsText.cpp" />
+		<Unit filename="ADN-X/clsText.h" />
+		<Unit filename="ADN-X/clsTimer.cpp" />
+		<Unit filename="ADN-X/clsTimer.h" />
+		<Unit filename="ASSETS/Images/Background.png" />
+		<Unit filename="ASSETS/Images/Exit.png" />
+		<Unit filename="ASSETS/Images/Game.png" />
+		<Unit filename="ASSETS/Images/Goodbye.png" />
+		<Unit filename="ASSETS/Images/Hello.png" />
+		<Unit filename="ASSETS/Images/Highscores.png" />
+		<Unit filename="ASSETS/Images/Hit/0.png" />
+		<Unit filename="ASSETS/Images/Hit/1.png" />
+		<Unit filename="ASSETS/Images/Hit/10.png" />
+		<Unit filename="ASSETS/Images/Hit/11.png" />
+		<Unit filename="ASSETS/Images/Hit/12.png" />
+		<Unit filename="ASSETS/Images/Hit/13.png" />
+		<Unit filename="ASSETS/Images/Hit/14.png" />
+		<Unit filename="ASSETS/Images/Hit/15.png" />
+		<Unit filename="ASSETS/Images/Hit/2.png" />
+		<Unit filename="ASSETS/Images/Hit/3.png" />
+		<Unit filename="ASSETS/Images/Hit/4.png" />
+		<Unit filename="ASSETS/Images/Hit/5.png" />
+		<Unit filename="ASSETS/Images/Hit/6.png" />
+		<Unit filename="ASSETS/Images/Hit/7.png" />
+		<Unit filename="ASSETS/Images/Hit/8.png" />
+		<Unit filename="ASSETS/Images/Hit/9.png" />
+		<Unit filename="ASSETS/Images/Menu.png" />
+		<Unit filename="ASSETS/Images/Score.png" />
+		<Unit filename="ASSETS/Images/Target PS.png" />
+		<Unit filename="ASSETS/Sounds/Menu.wav" />
+		<Unit filename="ASSETS/Sounds/Point.wav" />
+		<Unit filename="ASSETS/Sounds/SMG.wav" />
+		<Unit filename="ASSETS/Sounds/TrueSurvivor.mp3" />
+		<Unit filename="FONTS/FreeMono.ttf" />
+		<Unit filename="FONTS/FreeMonoBold.ttf" />
+		<Unit filename="FONTS/FreeMonoBoldOblique.ttf" />
+		<Unit filename="FONTS/FreeMonoOblique.ttf" />
+		<Unit filename="FONTS/FreeSans.ttf" />
+		<Unit filename="FONTS/FreeSansBold.ttf" />
+		<Unit filename="FONTS/FreeSansBoldOblique.ttf" />
+		<Unit filename="FONTS/FreeSansOblique.ttf" />
+		<Unit filename="FONTS/FreeSerif.ttf" />
+		<Unit filename="FONTS/FreeSerifBold.ttf" />
+		<Unit filename="FONTS/FreeSerifBoldItalic.ttf" />
+		<Unit filename="FONTS/FreeSerifItalic.ttf" />
+		<Unit filename="GPL LICENSE/Licencia GPL (traduccion NO OFICIAL - castellano argentina).txt" />
+		<Unit filename="GPL LICENSE/Licencia GPL original (ingles).txt" />
+		<Unit filename="LOG/stdout.txt" />
+		<Unit filename="include/clsBackground.h" />
+		<Unit filename="include/clsGame.h" />
+		<Unit filename="include/clsGoodbye.h" />
+		<Unit filename="include/clsHello.h" />
+		<Unit filename="include/clsHit.h" />
+		<Unit filename="include/clsMenu.h" />
+		<Unit filename="include/clsSPE.h" />
+		<Unit filename="include/clsScore.h" />
+		<Unit filename="include/clsTarget.h" />
+		<Unit filename="include/clsTime.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/clsBackground.cpp" />
+		<Unit filename="src/clsGame.cpp" />
+		<Unit filename="src/clsGoodbye.cpp" />
+		<Unit filename="src/clsHello.cpp" />
+		<Unit filename="src/clsHit.cpp" />
+		<Unit filename="src/clsMenu.cpp" />
+		<Unit filename="src/clsSPE.cpp" />
+		<Unit filename="src/clsScore.cpp" />
+		<Unit filename="src/clsTarget.cpp" />
+		<Unit filename="src/clsTime.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<lib_finder disable_auto="1" />
+			<debugger />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project output_language="Spanish" />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

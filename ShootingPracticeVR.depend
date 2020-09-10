@@ -1,0 +1,697 @@
+# depslib dependency file v1.0
+1415818188 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsaudio.cpp
+	"clsAudio.h"
+
+1415818188 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsaudio.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1528677632 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\adnconsts.h
+	<SDL/SDL.h>
+	<SDL/SDL_video.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<SDL.h>
+	<SDL_video.h>
+	"SDL_image.h"
+	"SDL_ttf.h"
+	"SDL_mixer.h"
+
+1415818188 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clserror.h
+
+1415818188 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsdot.cpp
+	"clsDot.h"
+
+1415818188 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsdot.h
+	"adnConsts.h"
+
+1432327228 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clserror.cpp
+	<cstring>
+	<iostream>
+	"clsError.h"
+
+1415818188 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsevent.cpp
+	"clsEvent.h"
+
+1415818188 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsevent.h
+	"adnConsts.h"
+
+1415818188 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsimage.cpp
+	"clsImage.h"
+
+1415818188 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsimage.h
+	"adnConsts.h"
+	"clsError.h"
+
+1415818188 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clslog.cpp
+	"clsLog.h"
+
+1415818188 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clslog.h
+	<cstdio>
+
+1415818188 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsmode.cpp
+	"clsMode.h"
+
+1415818188 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsmode.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1415818188 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsmusic.cpp
+	"clsMusic.h"
+
+1415818188 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsmusic.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1415818188 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsrandom.cpp
+	"clsRandom.h"
+
+1415818188 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsrandom.h
+	<ctime>
+	<cstdlib>
+	<iostream>
+
+1415818188 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsscreen.cpp
+	"clsScreen.h"
+
+1415818188 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsscreen.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1415818188 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clssoundeffect.cpp
+	"clsSoundEffect.h"
+
+1415818188 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clssoundeffect.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1415818188 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clssprite.cpp
+	"clsSprite.h"
+
+1415818188 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clssprite.h
+	<iostream>
+	<cstring>
+	"adnConsts.h"
+	"clsError.h"
+	"clsDot.h"
+	"clsImage.h"
+	"clsDot.h"
+	"clsScreen.h"
+
+1443039972 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clstext.cpp
+	"clsText.h"
+
+1415818188 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clstext.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1415818188 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clstimer.cpp
+	"clsTimer.h"
+
+1415818188 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clstimer.h
+	"clsEvent.h"
+
+1529343351 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\main.cpp
+	<iostream>
+	<adnConsts.h>
+	<clsLog.h>
+	<clsError.h>
+	<clsSPE.h>
+
+1528991085 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\include\clsspe.h
+	<clsEvent.h>
+	<clsMode.h>
+	<clsScreen.h>
+	<clsError.h>
+	<adnConsts.h>
+	<clsTimer.h>
+	<clsHello.h>
+	<clsGoodbye.h>
+	<clsBackground.h>
+	<clsAudio.h>
+	<clsMenu.h>
+	<clsMusic.h>
+
+1528991182 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\include\clshello.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<adnConsts.h>
+	<clsError.h>
+	<clsBackground.h>
+
+1529343476 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\include\clsbackground.h
+	<clsSprite.h>
+
+1528991139 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\include\clsgoodbye.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<clsError.h>
+	<clsBackground.h>
+
+1529071636 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\include\clsmenu.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<clsError.h>
+	<clsGame.h>
+	<clsText.h>
+	<clsBackground.h>
+	<clsSoundEffect.h>
+	<clsScore.h>
+
+1529083385 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\include\clsgame.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<clsError.h>
+	<clsBackground.h>
+	<clsScore.h>
+	<clsTime.h>
+	<clsSoundEffect.h>
+	<clsText.h>
+	<clsAudio.h>
+	<clsHit.h>
+	<clsTarget.h>
+
+1529349102 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\include\clsscore.h
+	<clsScreen.h>
+	<clsError.h>
+	<clsText.h>
+	<clsBackground.h>
+	<clsEvent.h>
+
+1529271777 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\include\clstime.h
+	<clsTimer.h>
+	<clsScreen.h>
+	<clsError.h>
+	<clsText.h>
+
+1528679940 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\include\clshit.h
+	<clsSprite.h>
+	<clsTimer.h>
+	<clsScreen.h>
+
+1528819483 c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\include\clstarget.h
+	<clsScreen.h>
+	<clsRandom.h>
+	<clsSprite.h>
+
+1529343789 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\src\clsbackground.cpp
+	"clsBackground.h"
+
+1529344017 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\src\clsgame.cpp
+	"clsGame.h"
+
+1529345128 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\src\clsgoodbye.cpp
+	"clsGoodbye.h"
+
+1529345136 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\src\clshello.cpp
+	"clsHello.h"
+
+1529345197 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\src\clshit.cpp
+	"clsHit.h"
+
+1529345542 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\src\clsmenu.cpp
+	"clsMenu.h"
+
+1529585550 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\src\clsscore.cpp
+	"clsScore.h"
+
+1529414368 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\src\clsspe.cpp
+	"clsSPE.h"
+
+1529345758 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\src\clstarget.cpp
+	"clsTarget.h"
+
+1529345394 source:c:\users\tisoporte\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\src\clstime.cpp
+	"clsTime.h"
+
+1415818188 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsaudio.cpp
+	"clsAudio.h"
+
+1415818188 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsaudio.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1528677632 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\adnconsts.h
+	<SDL/SDL.h>
+	<SDL/SDL_video.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<SDL.h>
+	<SDL_video.h>
+	"SDL_image.h"
+	"SDL_ttf.h"
+	"SDL_mixer.h"
+
+1415818188 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clserror.h
+
+1415818188 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsdot.cpp
+	"clsDot.h"
+
+1415818188 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsdot.h
+	"adnConsts.h"
+
+1432327228 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clserror.cpp
+	<cstring>
+	<iostream>
+	"clsError.h"
+
+1415818188 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsevent.cpp
+	"clsEvent.h"
+
+1415818188 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsevent.h
+	"adnConsts.h"
+
+1415818188 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsimage.cpp
+	"clsImage.h"
+
+1415818188 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsimage.h
+	"adnConsts.h"
+	"clsError.h"
+
+1415818188 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clslog.cpp
+	"clsLog.h"
+
+1415818188 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clslog.h
+	<cstdio>
+
+1415818188 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsmode.cpp
+	"clsMode.h"
+
+1415818188 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsmode.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1415818188 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsmusic.cpp
+	"clsMusic.h"
+
+1415818188 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsmusic.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1415818188 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsrandom.cpp
+	"clsRandom.h"
+
+1415818188 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsrandom.h
+	<ctime>
+	<cstdlib>
+	<iostream>
+
+1415818188 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsscreen.cpp
+	"clsScreen.h"
+
+1415818188 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clsscreen.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1415818188 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clssoundeffect.cpp
+	"clsSoundEffect.h"
+
+1415818188 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clssoundeffect.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1415818188 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clssprite.cpp
+	"clsSprite.h"
+
+1415818188 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clssprite.h
+	<iostream>
+	<cstring>
+	"adnConsts.h"
+	"clsError.h"
+	"clsDot.h"
+	"clsImage.h"
+	"clsDot.h"
+	"clsScreen.h"
+
+1443039972 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clstext.cpp
+	"clsText.h"
+
+1415818188 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clstext.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1415818188 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clstimer.cpp
+	"clsTimer.h"
+
+1415818188 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\adn-x\clstimer.h
+	"clsEvent.h"
+
+1529077127 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\main.cpp
+	<iostream>
+	<adnConsts.h>
+	<clsLog.h>
+	<clsError.h>
+	<clsSPE.h>
+
+1528991085 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\include\clsspe.h
+	<clsEvent.h>
+	<clsMode.h>
+	<clsScreen.h>
+	<clsError.h>
+	<adnConsts.h>
+	<clsTimer.h>
+	<clsHello.h>
+	<clsGoodbye.h>
+	<clsBackground.h>
+	<clsAudio.h>
+	<clsMenu.h>
+	<clsMusic.h>
+
+1528991182 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\include\clshello.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<adnConsts.h>
+	<clsError.h>
+	<clsBackground.h>
+
+1529085353 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\include\clsbackground.h
+	<clsSprite.h>
+
+1528991139 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\include\clsgoodbye.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<clsError.h>
+	<clsBackground.h>
+
+1529071636 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\include\clsmenu.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<clsError.h>
+	<clsGame.h>
+	<clsText.h>
+	<clsBackground.h>
+	<clsSoundEffect.h>
+	<clsScore.h>
+
+1529083385 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\include\clsgame.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<clsError.h>
+	<clsBackground.h>
+	<clsScore.h>
+	<clsTime.h>
+	<clsSoundEffect.h>
+	<clsText.h>
+	<clsAudio.h>
+	<clsHit.h>
+	<clsTarget.h>
+
+1528991387 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\include\clsscore.h
+	<clsScreen.h>
+	<clsError.h>
+	<clsText.h>
+	<clsBackground.h>
+	<clsEvent.h>
+
+1529271777 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\include\clstime.h
+	<clsTimer.h>
+	<clsScreen.h>
+	<clsError.h>
+	<clsText.h>
+
+1528679940 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\include\clshit.h
+	<clsSprite.h>
+	<clsTimer.h>
+	<clsScreen.h>
+
+1528819483 c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\include\clstarget.h
+	<clsScreen.h>
+	<clsRandom.h>
+	<clsSprite.h>
+
+1529085366 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\src\clsbackground.cpp
+	"clsBackground.h"
+
+1528995483 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\src\clsgoodbye.cpp
+	"clsGoodbye.h"
+
+1528995470 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\src\clshello.cpp
+	"clsHello.h"
+
+1528679916 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\src\clshit.cpp
+	"clsHit.h"
+
+1529268666 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\src\clsmenu.cpp
+	"clsMenu.h"
+
+1529072480 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\src\clsscore.cpp
+	"clsScore.h"
+
+1528989428 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\src\clsspe.cpp
+	"clsSPE.h"
+
+1529073655 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\src\clstarget.cpp
+	"clsTarget.h"
+
+1529272046 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\src\clstime.cpp
+	"clsTime.h"
+
+1529272219 source:c:\users\carlos\documents\utn\laboratorio de computacion ii\tp2\shootingpracticevr\src\clsgame.cpp
+	"clsGame.h"
+
+1415818188 source:d:\shootingpracticevr\shootingpracticevr\adn-x\clsaudio.cpp
+	"clsAudio.h"
+
+1415818188 d:\shootingpracticevr\shootingpracticevr\adn-x\clsaudio.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1528677634 d:\shootingpracticevr\shootingpracticevr\adn-x\adnconsts.h
+	<SDL/SDL.h>
+	<SDL/SDL_video.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<SDL.h>
+	<SDL_video.h>
+	"SDL_image.h"
+	"SDL_ttf.h"
+	"SDL_mixer.h"
+
+1415818188 d:\shootingpracticevr\shootingpracticevr\adn-x\clserror.h
+
+1415818188 source:d:\shootingpracticevr\shootingpracticevr\adn-x\clsdot.cpp
+	"clsDot.h"
+
+1415818188 d:\shootingpracticevr\shootingpracticevr\adn-x\clsdot.h
+	"adnConsts.h"
+
+1432327228 source:d:\shootingpracticevr\shootingpracticevr\adn-x\clserror.cpp
+	<cstring>
+	<iostream>
+	"clsError.h"
+
+1415818188 source:d:\shootingpracticevr\shootingpracticevr\adn-x\clsevent.cpp
+	"clsEvent.h"
+
+1415818188 d:\shootingpracticevr\shootingpracticevr\adn-x\clsevent.h
+	"adnConsts.h"
+
+1415818188 source:d:\shootingpracticevr\shootingpracticevr\adn-x\clsimage.cpp
+	"clsImage.h"
+
+1415818188 d:\shootingpracticevr\shootingpracticevr\adn-x\clsimage.h
+	"adnConsts.h"
+	"clsError.h"
+
+1415818188 source:d:\shootingpracticevr\shootingpracticevr\adn-x\clslog.cpp
+	"clsLog.h"
+
+1415818188 d:\shootingpracticevr\shootingpracticevr\adn-x\clslog.h
+	<cstdio>
+
+1415818188 source:d:\shootingpracticevr\shootingpracticevr\adn-x\clsmode.cpp
+	"clsMode.h"
+
+1415818188 d:\shootingpracticevr\shootingpracticevr\adn-x\clsmode.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1415818188 source:d:\shootingpracticevr\shootingpracticevr\adn-x\clsmusic.cpp
+	"clsMusic.h"
+
+1415818188 d:\shootingpracticevr\shootingpracticevr\adn-x\clsmusic.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1415818188 source:d:\shootingpracticevr\shootingpracticevr\adn-x\clsrandom.cpp
+	"clsRandom.h"
+
+1415818188 d:\shootingpracticevr\shootingpracticevr\adn-x\clsrandom.h
+	<ctime>
+	<cstdlib>
+	<iostream>
+
+1415818188 source:d:\shootingpracticevr\shootingpracticevr\adn-x\clsscreen.cpp
+	"clsScreen.h"
+
+1415818188 d:\shootingpracticevr\shootingpracticevr\adn-x\clsscreen.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1415818188 source:d:\shootingpracticevr\shootingpracticevr\adn-x\clssoundeffect.cpp
+	"clsSoundEffect.h"
+
+1415818188 d:\shootingpracticevr\shootingpracticevr\adn-x\clssoundeffect.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1415818188 source:d:\shootingpracticevr\shootingpracticevr\adn-x\clssprite.cpp
+	"clsSprite.h"
+
+1415818188 d:\shootingpracticevr\shootingpracticevr\adn-x\clssprite.h
+	<iostream>
+	<cstring>
+	"adnConsts.h"
+	"clsError.h"
+	"clsDot.h"
+	"clsImage.h"
+	"clsDot.h"
+	"clsScreen.h"
+
+1443039972 source:d:\shootingpracticevr\shootingpracticevr\adn-x\clstext.cpp
+	"clsText.h"
+
+1415818188 d:\shootingpracticevr\shootingpracticevr\adn-x\clstext.h
+	<iostream>
+	"adnConsts.h"
+	"clsError.h"
+
+1415818188 source:d:\shootingpracticevr\shootingpracticevr\adn-x\clstimer.cpp
+	"clsTimer.h"
+
+1415818188 d:\shootingpracticevr\shootingpracticevr\adn-x\clstimer.h
+	"clsEvent.h"
+
+1529343352 source:d:\shootingpracticevr\shootingpracticevr\main.cpp
+	<iostream>
+	<adnConsts.h>
+	<clsLog.h>
+	<clsError.h>
+	<clsSPE.h>
+
+1528991086 d:\shootingpracticevr\shootingpracticevr\include\clsspe.h
+	<clsEvent.h>
+	<clsMode.h>
+	<clsScreen.h>
+	<clsError.h>
+	<adnConsts.h>
+	<clsTimer.h>
+	<clsHello.h>
+	<clsGoodbye.h>
+	<clsBackground.h>
+	<clsAudio.h>
+	<clsMenu.h>
+	<clsMusic.h>
+
+1528991184 d:\shootingpracticevr\shootingpracticevr\include\clshello.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<adnConsts.h>
+	<clsError.h>
+	<clsBackground.h>
+
+1529343478 d:\shootingpracticevr\shootingpracticevr\include\clsbackground.h
+	<clsSprite.h>
+
+1528991140 d:\shootingpracticevr\shootingpracticevr\include\clsgoodbye.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<clsError.h>
+	<clsBackground.h>
+
+1529071638 d:\shootingpracticevr\shootingpracticevr\include\clsmenu.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<clsError.h>
+	<clsGame.h>
+	<clsText.h>
+	<clsBackground.h>
+	<clsSoundEffect.h>
+	<clsScore.h>
+
+1529083386 d:\shootingpracticevr\shootingpracticevr\include\clsgame.h
+	<clsScreen.h>
+	<clsEvent.h>
+	<clsError.h>
+	<clsBackground.h>
+	<clsScore.h>
+	<clsTime.h>
+	<clsSoundEffect.h>
+	<clsText.h>
+	<clsAudio.h>
+	<clsHit.h>
+	<clsTarget.h>
+
+1529349104 d:\shootingpracticevr\shootingpracticevr\include\clsscore.h
+	<clsScreen.h>
+	<clsError.h>
+	<clsText.h>
+	<clsBackground.h>
+	<clsEvent.h>
+
+1529271778 d:\shootingpracticevr\shootingpracticevr\include\clstime.h
+	<clsTimer.h>
+	<clsScreen.h>
+	<clsError.h>
+	<clsText.h>
+
+1528679942 d:\shootingpracticevr\shootingpracticevr\include\clshit.h
+	<clsSprite.h>
+	<clsTimer.h>
+	<clsScreen.h>
+
+1528819484 d:\shootingpracticevr\shootingpracticevr\include\clstarget.h
+	<clsScreen.h>
+	<clsRandom.h>
+	<clsSprite.h>
+
+1529343790 source:d:\shootingpracticevr\shootingpracticevr\src\clsbackground.cpp
+	"clsBackground.h"
+
+1529344018 source:d:\shootingpracticevr\shootingpracticevr\src\clsgame.cpp
+	"clsGame.h"
+
+1529345130 source:d:\shootingpracticevr\shootingpracticevr\src\clsgoodbye.cpp
+	"clsGoodbye.h"
+
+1529345138 source:d:\shootingpracticevr\shootingpracticevr\src\clshello.cpp
+	"clsHello.h"
+
+1529345198 source:d:\shootingpracticevr\shootingpracticevr\src\clshit.cpp
+	"clsHit.h"
+
+1529345544 source:d:\shootingpracticevr\shootingpracticevr\src\clsmenu.cpp
+	"clsMenu.h"
+
+1530207372 source:d:\shootingpracticevr\shootingpracticevr\src\clsscore.cpp
+	"clsScore.h"
+
+1529414370 source:d:\shootingpracticevr\shootingpracticevr\src\clsspe.cpp
+	"clsSPE.h"
+
+1529345760 source:d:\shootingpracticevr\shootingpracticevr\src\clstarget.cpp
+	"clsTarget.h"
+
+1529345396 source:d:\shootingpracticevr\shootingpracticevr\src\clstime.cpp
+	"clsTime.h"
+
